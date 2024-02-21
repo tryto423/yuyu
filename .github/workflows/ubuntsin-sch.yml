@@ -1,7 +1,7 @@
 name: ubunt-sin-sch
 on:
   schedule:
-    - cron: '0 */1 * * *' # Run every day at midnight
+    - cron: '45 */1 * * *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
